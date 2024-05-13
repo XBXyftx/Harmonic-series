@@ -1,17 +1,17 @@
 @Entry
 @Component
 struct Index {
-  @State message: string = 'Hello World';
+  @State n : number = 0
 
   build() {
-    Row() {
-      Column() {
-        Text(this.message)
-          .fontSize(50)
-          .fontWeight(FontWeight.Bold)
+    Column(){
+      //根组件
+      Row(){
+        //上半部分结果输出组件
       }
-      .width('100%')
+      .height('40%')
     }
+    .width('100%')
     .height('100%')
   }
 }
