@@ -1,6 +1,20 @@
 {
   "app": {
-    "signingConfigs": [],
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\Lenovo\\.ohos\\config\\auto_debug_Harmonic_series_com.example.harmonic_series_10086000139593308.cer",
+          "storePassword": "0000001BF3813FDDD591652E690CFEF422701128904FE57B4CAB222F4773E12D42877B8D684EEFF30DC801",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B141EE1CB79866B4DA9359769B259092F0239CD6042C99EE7E637B1AF20B99CD7D398768111D443",
+          "profile": "C:\\Users\\Lenovo\\.ohos\\config\\auto_debug_Harmonic_series_com.example.harmonic_series_10086000139593308.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\Lenovo\\.ohos\\config\\auto_debug_Harmonic_series_com.example.harmonic_series_10086000139593308.p12"
+        }
+      }
+    ],
     "compileSdkVersion": 9,
     "compatibleSdkVersion": 9,
     "products": [
