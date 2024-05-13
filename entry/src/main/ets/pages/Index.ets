@@ -20,6 +20,7 @@ struct Index {
           .type(InputType.Number)
           .onChange((value)=>{
             this.n=parseInt(value)
+            this.result = 0
             for(let i = 1; i<=this.n ; i++){
               this.result += 1/i
             }
